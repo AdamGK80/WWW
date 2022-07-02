@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pierwsza strona</title>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        
+        <link rel="stylesheet" href="style.css">
+
+
+    </head>
+    
+    <body>
+        <header>
+            <img src="cfd1.JPG" alt="cfd - header"/>
+        </header>
+
+        <nav>
+
+        <button class="tablink" onclick="openPage('OMNIE', this, 'red')" id="defaultOpen">O MNIE</button>
+        <button class="tablink" onclick="openPage('HPDC', this, 'red')">HPDC</button>
+        <button class="tablink" onclick="openPage('CFD', this, 'red')">CFD</button>
+        <button class="tablink" onclick="openPage('Kontakt', this, 'blue')">Kontakt</button>
+    
+    <div id="OMNIE" class="tabcontent">
+        <h3>O MNIE</h3>
+        <p><img class="left" src="hp.jpg" alt"komputer" />Jestem absolwentem kierunku Inżynieria Materiałowa na Politechniki Śląskiej. Od 15 lat zajmuję się odlewnictwem ciśnieniowym. 
+          W swojej karierze byłem technologiem, konstruktorem a obecnie, od wielu lat pracuję jako inżynier d.s. symulacji.
+          Zajmuje się konstrukcją układów wlewowych i obliczeniami CFD. Na codzień wykorzystuję oprogramowanie FLOW-3D. Obecna praca sprawia mi satysfakcję ponieważ od czasu do czasu mogę również stosować w niej zagadnienia związane z programowaniem.
+        </p>
+    </div>
+
+    <div id="HPDC" class="tabcontent">
+         <h3>HPDC</h3>
+        <p><img class="left" src="hpdc_idra.JPG" alt"idra" />Odlewanie ciśnieniowe (odlewanie pod wysokim ciśnieniem) – technologia kształtowania ciekłego metalu w gotowy wyrób. Technologia ta umożliwia wytwarzanie wyrobów gotowych, głównie ze stopów metali nieżelaznych (Al, Mg, Zn, Cu). Odlewy ciśnieniowe charakteryzują się dużą dokładnością, stabilnością wymiarową, jakością powierzchni i odwzorowaniem ich kształtów.
+    
+         Odlewanie ciśnieniowe polega na wymuszonym ruchu metalu wypełniającego wnękę formy, ciśnieniem wywołanym ruchem tłoka prasującego maszyny odlewniczej. Technologia ta zapewnia wysoki uzysk metalu, a dzięki drobnoziarnistej strukturze - dobre właściwości mechaniczne, fizyczne i chemiczne odlewów. Cechą charakterystyczną tej technologii odlewania są bardzo wysokie prędkości i ciśnienia niespotykane w innych technologiach odlewniczych. Prędkości te dochodzą do 100 m/s a ciśnienia do 150 MPa. Oznacza to, że sposób wypełniania wnęki formy przebiega w sposób turbulentny, któremu towarzyszą zjawiska rozpylania, zawirowania, rozbijania i mieszania się strug ciekłego metalu. Konsekwencją takiego sposobu wypełniania wnęki formy są niejednorodności strukturalne odlewów w postaci pęcherzy gazowych, rozdzielenia faz i wtrąceń niemetalicznych. </p>
+    </div>
+
+    <div id="CFD" class="tabcontent">
+        <h3>CFD</h3>
+        <p><img class="left" src="hpdc1.JPG" alt"odlew" />Obliczeniowa mechanika płynów, numeryczna mechanika płynów (ang. Computational Fluid Dynamics, CFD) – dział mechaniki płynów wykorzystujący metody numeryczne do rozwiązywania zagadnień przepływu płynów.
+
+             Dzięki dyskretyzacji i numerycznemu rozwiązaniu cząstkowych równań różniczkowych opisujących przepływ, możliwe jest przybliżone wyznaczenie rozkładu prędkości, ciśnienia, temperatury i innych parametrów w przepływie. Współczesne programy CFD pozwalają na rozwiązywanie przepływów z uwzględnieniem lepkości i ściśliwości, przepływów wielofazowych, przepływów w których występują reakcje chemiczne lub procesy spalania, 
+            przepływów przez struktury porowate, oraz przepływów w których czynnik jest płynem newtonowskim (niutonowskim) lub nienewtonowskim. Istnieje także możliwość symulowania interakcji płyn-ciało stałe. Większość współczesnych programów CFD bazuje na równaniach Naviera-Stokesa (równanie zachowania masy, pędu i energii dla płynu) i dyskretyzuje je za pomocą metody objętości skończonych, metody elementów skończonych lub metody różnic skończonych.  </p>
+    </div>
+
+    <div id="Kontakt" class="tabcontent">
+  <h3>Kontakt</h3>
+  <p><img class="left" src="hpdc3.JPG" alt"mail" />adam.gieszczyk@gmail.com</p>
+    </div> 
+    </nav>
+    <script src="script.js"></script>
+
+
+    <iframe width="1200" height="768" src="https://www.youtube.com/embed/Qub-LvoDY4E" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>
+            
+    <footer>TO JEST MOJA PIERWSZA STRONA. 2022.</footer>
+
+    </body>
+</html>
